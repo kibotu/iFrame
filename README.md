@@ -12,7 +12,7 @@ modules: [
 			// See 'Configuration options' for more information.
 				url: "ENTER IN URL",
 				width: "100%", // Optional. Default: 100%
-				height: "100px". //Optional. Default: 100px
+				height: "100px", //Optional. Default: 100px
 				refreshInterval: 60000 //Optional. Default: 60000
 			}
 		}
@@ -51,6 +51,13 @@ The following properties can be configured:
 				<br><b>Example:</b><code>"100%"</code>
 				<br><b>Example:</b><code>"300px"</code>
 				<br><b>Default value:</b> <code>"100px"</code>
+			</td>
+		</tr>
+		<tr>
+			<td><code>refreshInterval</code></td>
+			<td>refresh interval for reloading iframe in ms<br>
+				<br><b>Example:</b><code>15000</code>
+				<br><b>Default value:</b> <code>60000</code>
 			</td>
 		</tr>
 </table>
