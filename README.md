@@ -10,9 +10,10 @@ modules: [
 		position: 'bottom_bar',	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
-				url: "ENTER IN URL"
-				width: "100%" // Optional. Default: 100%
-				height: "100px" //Optional. Default: 100px
+				url: "ENTER IN URL",
+				width: "100%", // Optional. Default: 100%
+				height: "100px". //Optional. Default: 100px
+				refreshInterval: 60000 //Optional. Default: 60000
 			}
 		}
 	}
